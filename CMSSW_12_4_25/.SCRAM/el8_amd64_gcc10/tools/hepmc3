@@ -1,0 +1,25 @@
+{
+  "HEPMC3_BASE": "/cvmfs/cms.cern.ch/el8_amd64_gcc10/external/hepmc3/3.2.5-c1448a381efbea7cc6e1f099763d2061",
+  "INCLUDE": [
+    "/cvmfs/cms.cern.ch/el8_amd64_gcc10/external/hepmc3/3.2.5-c1448a381efbea7cc6e1f099763d2061/include"
+  ],
+  "LIB": [
+    "HepMC3",
+    "HepMC3search"
+  ],
+  "LIBDIR": [
+    "/cvmfs/cms.cern.ch/el8_amd64_gcc10/external/hepmc3/3.2.5-c1448a381efbea7cc6e1f099763d2061/lib64"
+  ],
+  "RUNTIME": {
+    "PATH:CMSSW_FWLITE_INCLUDE_PATH": [
+      "/cvmfs/cms.cern.ch/el8_amd64_gcc10/external/hepmc3/3.2.5-c1448a381efbea7cc6e1f099763d2061/include"
+    ]
+  },
+  "TOOLNAME": "hepmc3",
+  "TOOLVERSION": "3.2.5-c1448a381efbea7cc6e1f099763d2061",
+  "VARIABLES": [
+    "HEPMC3_BASE",
+    "LIBDIR",
+    "INCLUDE"
+  ]
+}

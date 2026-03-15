@@ -1,0 +1,13 @@
+{
+  "PY3_NUMBA_BASE": "/cvmfs/cms.cern.ch/el8_amd64_gcc10/external/py3-numba/0.54.0-bf73a464227f7bedf9d0ddb82e90a339",
+  "RUNTIME": {
+    "PATH:PATH": [
+      "/cvmfs/cms.cern.ch/el8_amd64_gcc10/external/py3-numba/0.54.0-bf73a464227f7bedf9d0ddb82e90a339/bin"
+    ]
+  },
+  "TOOLNAME": "py3-numba",
+  "TOOLVERSION": "0.54.0-bf73a464227f7bedf9d0ddb82e90a339",
+  "VARIABLES": [
+    "PY3_NUMBA_BASE"
+  ]
+}

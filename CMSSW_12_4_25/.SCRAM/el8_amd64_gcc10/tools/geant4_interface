@@ -1,0 +1,37 @@
+{
+  "FLAGS": {
+    "CPPDEFINES": [
+      "GNU_GCC",
+      "G4V9"
+    ],
+    "CXXFLAGS": [
+      "-ftls-model=global-dynamic",
+      "-pthread",
+      "-DG4GEOM_USE_USOLIDS"
+    ]
+  },
+  "GEANT4_INTERFACE_BASE": "/cvmfs/cms.cern.ch/el8_amd64_gcc10/external/geant4/10.7.2-39cceaa5a3e935f31e4597a80c89648a",
+  "INCLUDE": [
+    "/cvmfs/cms.cern.ch/el8_amd64_gcc10/external/geant4/10.7.2-39cceaa5a3e935f31e4597a80c89648a/include/Geant4",
+    "/cvmfs/cms.cern.ch/el8_amd64_gcc10/external/geant4/10.7.2-39cceaa5a3e935f31e4597a80c89648a/include"
+  ],
+  "RUNTIME": {
+    "PATH:ROOT_INCLUDE_PATH": [
+      "/cvmfs/cms.cern.ch/el8_amd64_gcc10/external/geant4/10.7.2-39cceaa5a3e935f31e4597a80c89648a/include"
+    ]
+  },
+  "TOOLNAME": "geant4_interface",
+  "TOOLVERSION": "10.7.2-39cceaa5a3e935f31e4597a80c89648a",
+  "USE": [
+    "clhep",
+    "vecgeom",
+    "zlib",
+    "expat",
+    "xerces-c",
+    "root_cxxdefaults"
+  ],
+  "VARIABLES": [
+    "GEANT4_INTERFACE_BASE",
+    "INCLUDE"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "INCLUDE": [
+    "/cvmfs/cms.cern.ch/el8_amd64_gcc10/external/libjpeg-turbo/2.0.2-2056a886a3f9a0c601345cfde99c5204/include"
+  ],
+  "LIB": [
+    "jpeg",
+    "turbojpeg"
+  ],
+  "LIBDIR": [
+    "/cvmfs/cms.cern.ch/el8_amd64_gcc10/external/libjpeg-turbo/2.0.2-2056a886a3f9a0c601345cfde99c5204/lib64"
+  ],
+  "LIBJPEG_TURBO_BASE": "/cvmfs/cms.cern.ch/el8_amd64_gcc10/external/libjpeg-turbo/2.0.2-2056a886a3f9a0c601345cfde99c5204",
+  "RUNTIME": {
+    "PATH:PATH": [
+      "/cvmfs/cms.cern.ch/el8_amd64_gcc10/external/libjpeg-turbo/2.0.2-2056a886a3f9a0c601345cfde99c5204/bin"
+    ],
+    "PATH:ROOT_INCLUDE_PATH": [
+      "/cvmfs/cms.cern.ch/el8_amd64_gcc10/external/libjpeg-turbo/2.0.2-2056a886a3f9a0c601345cfde99c5204/include"
+    ]
+  },
+  "TOOLNAME": "libjpeg-turbo",
+  "TOOLVERSION": "2.0.2-2056a886a3f9a0c601345cfde99c5204",
+  "USE": [
+    "root_cxxdefaults"
+  ],
+  "VARIABLES": [
+    "LIBJPEG_TURBO_BASE",
+    "LIBDIR",
+    "INCLUDE"
+  ]
+}

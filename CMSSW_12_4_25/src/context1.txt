@@ -1,0 +1,4 @@
+Type                        Module                        Label     Process   
+------------------------------------------------------------------------------
+GenEventInfoProduct         "generator"                   ""        "GEN"     
+edm::RandomEngineStates     "randomEngineStateProducer"   ""        "GEN"     

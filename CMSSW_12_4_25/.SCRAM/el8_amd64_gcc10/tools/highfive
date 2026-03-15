@@ -1,0 +1,21 @@
+{
+  "HIGHFIVE_BASE": "/cvmfs/cms.cern.ch/el8_amd64_gcc10/external/highfive/2.3.1-fab0adb24235ebb82eb02538c07da582",
+  "INCLUDE": [
+    "/cvmfs/cms.cern.ch/el8_amd64_gcc10/external/highfive/2.3.1-fab0adb24235ebb82eb02538c07da582/include"
+  ],
+  "RUNTIME": {
+    "PATH:ROOT_INCLUDE_PATH": [
+      "/cvmfs/cms.cern.ch/el8_amd64_gcc10/external/highfive/2.3.1-fab0adb24235ebb82eb02538c07da582/include"
+    ]
+  },
+  "TOOLNAME": "highfive",
+  "TOOLVERSION": "2.3.1-fab0adb24235ebb82eb02538c07da582",
+  "USE": [
+    "boost",
+    "hdf5"
+  ],
+  "VARIABLES": [
+    "HIGHFIVE_BASE",
+    "INCLUDE"
+  ]
+}

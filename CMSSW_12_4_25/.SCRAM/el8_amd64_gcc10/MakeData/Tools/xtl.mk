@@ -1,0 +1,3 @@
+ALL_TOOLS      += xtl
+xtl_EX_INCLUDE := /cvmfs/cms.cern.ch/el8_amd64_gcc10/external/xtl/0.7.4-1b05b82234f6ca0dd593d0ea9cd9a398/include
+

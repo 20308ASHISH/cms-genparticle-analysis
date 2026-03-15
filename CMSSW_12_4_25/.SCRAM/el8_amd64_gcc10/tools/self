@@ -1,0 +1,138 @@
+{
+  "FLAGS": {
+    "CHECK_PRIVATE_HEADERS": [
+      "1"
+    ],
+    "DEFAULT_COMPILER": [
+      "gcc"
+    ],
+    "EXTERNAL_SYMLINK": [
+      "PATH",
+      "LIBDIR",
+      "CMSSW_SEARCH_PATH"
+    ],
+    "LLVM_ANALYZER": [
+      "llvm-analyzer"
+    ],
+    "NO_EXTERNAL_RUNTIME": [
+      "LD_LIBRARY_PATH",
+      "PATH",
+      "CMSSW_SEARCH_PATH"
+    ],
+    "OVERRIDABLE_FLAGS": [
+      "CPPDEFINES",
+      "CXXFLAGS",
+      "FFLAGS",
+      "CFLAGS",
+      "CPPFLAGS",
+      "LDFLAGS",
+      "CUDA_FLAGS",
+      "CUDA_LDFLAGS"
+    ],
+    "SCRAM_TARGETS": [
+      "haswell",
+      "sandybridge",
+      "nehalem"
+    ],
+    "SKIP_TOOLS_SYMLINK": [
+      "cxxcompiler",
+      "ccompiler",
+      "f77compiler",
+      "gcc-cxxcompiler",
+      "gcc-ccompiler",
+      "gcc-f77compiler",
+      "llvm-cxxcompiler",
+      "llvm-ccompiler",
+      "llvm-f77compiler",
+      "llvm-analyzer-cxxcompiler",
+      "llvm-analyzer-ccompiler",
+      "icc-cxxcompiler",
+      "icc-ccompiler",
+      "icc-f77compiler",
+      "x11",
+      "dpm"
+    ],
+    "SYMLINK_DEPTH_CMSSW_SEARCH_PATH": [
+      "2"
+    ]
+  },
+  "INCLUDE": [
+    "/eos/home-a/asmishra/cms_project/CMSSW_12_4_25/src",
+    "/eos/home-a/asmishra/cms_project/CMSSW_12_4_25/include/el8_amd64_gcc10/src",
+    "/eos/home-a/asmishra/cms_project/CMSSW_12_4_25/include/LCG",
+    "/cvmfs/cms.cern.ch/el8_amd64_gcc10/cms/cmssw/CMSSW_12_4_25/src"
+  ],
+  "LIBDIR": [
+    "/eos/home-a/asmishra/cms_project/CMSSW_12_4_25/biglib/el8_amd64_gcc10",
+    "/eos/home-a/asmishra/cms_project/CMSSW_12_4_25/lib/el8_amd64_gcc10",
+    "/eos/home-a/asmishra/cms_project/CMSSW_12_4_25/external/el8_amd64_gcc10/lib",
+    "/cvmfs/cms.cern.ch/el8_amd64_gcc10/cms/cmssw/CMSSW_12_4_25/biglib/el8_amd64_gcc10",
+    "/cvmfs/cms.cern.ch/el8_amd64_gcc10/cms/cmssw/CMSSW_12_4_25/lib/el8_amd64_gcc10",
+    "/cvmfs/cms.cern.ch/el8_amd64_gcc10/cms/cmssw/CMSSW_12_4_25/external/el8_amd64_gcc10/lib"
+  ],
+  "RUNTIME": {
+    "CMSSW_BASE": [
+      "/eos/home-a/asmishra/cms_project/CMSSW_12_4_25"
+    ],
+    "CMSSW_GIT_HASH": [
+      "CMSSW_12_4_25"
+    ],
+    "CMSSW_RELEASE_BASE": [
+      "/cvmfs/cms.cern.ch/el8_amd64_gcc10/cms/cmssw/CMSSW_12_4_25"
+    ],
+    "CMSSW_VERSION": [
+      "CMSSW_12_4_25"
+    ],
+    "LANG": [
+      "C"
+    ],
+    "LOCALRT": [
+      "/eos/home-a/asmishra/cms_project/CMSSW_12_4_25"
+    ],
+    "PATH:CMSSW_SEARCH_PATH": [
+      "/eos/home-a/asmishra/cms_project/CMSSW_12_4_25/poison",
+      "/eos/home-a/asmishra/cms_project/CMSSW_12_4_25/src",
+      "/eos/home-a/asmishra/cms_project/CMSSW_12_4_25/external/el8_amd64_gcc10/data",
+      "/cvmfs/cms.cern.ch/el8_amd64_gcc10/cms/cmssw/CMSSW_12_4_25/src",
+      "/cvmfs/cms.cern.ch/el8_amd64_gcc10/cms/cmssw/CMSSW_12_4_25/external/el8_amd64_gcc10/data"
+    ],
+    "PATH:LD_LIBRARY_PATH": [
+      "/eos/home-a/asmishra/cms_project/CMSSW_12_4_25/biglib/el8_amd64_gcc10",
+      "/eos/home-a/asmishra/cms_project/CMSSW_12_4_25/lib/el8_amd64_gcc10",
+      "/eos/home-a/asmishra/cms_project/CMSSW_12_4_25/external/el8_amd64_gcc10/lib",
+      "/cvmfs/cms.cern.ch/el8_amd64_gcc10/cms/cmssw/CMSSW_12_4_25/biglib/el8_amd64_gcc10",
+      "/cvmfs/cms.cern.ch/el8_amd64_gcc10/cms/cmssw/CMSSW_12_4_25/lib/el8_amd64_gcc10",
+      "/cvmfs/cms.cern.ch/el8_amd64_gcc10/cms/cmssw/CMSSW_12_4_25/external/el8_amd64_gcc10/lib"
+    ],
+    "PATH:PATH": [
+      "/eos/home-a/asmishra/cms_project/CMSSW_12_4_25/bin/el8_amd64_gcc10",
+      "/eos/home-a/asmishra/cms_project/CMSSW_12_4_25/external/el8_amd64_gcc10/bin",
+      "/cvmfs/cms.cern.ch/el8_amd64_gcc10/cms/cmssw/CMSSW_12_4_25/bin/el8_amd64_gcc10",
+      "/cvmfs/cms.cern.ch/el8_amd64_gcc10/cms/cmssw/CMSSW_12_4_25/external/el8_amd64_gcc10/bin"
+    ],
+    "PATH:PYTHON3PATH": [
+      "/eos/home-a/asmishra/cms_project/CMSSW_12_4_25/python",
+      "/eos/home-a/asmishra/cms_project/CMSSW_12_4_25/lib/el8_amd64_gcc10",
+      "/cvmfs/cms.cern.ch/el8_amd64_gcc10/cms/cmssw/CMSSW_12_4_25/python",
+      "/cvmfs/cms.cern.ch/el8_amd64_gcc10/cms/cmssw/CMSSW_12_4_25/lib/el8_amd64_gcc10"
+    ],
+    "PATH:RIVET_ANALYSIS_PATH": [
+      "/eos/home-a/asmishra/cms_project/CMSSW_12_4_25/lib/el8_amd64_gcc10",
+      "/cvmfs/cms.cern.ch/el8_amd64_gcc10/cms/cmssw/CMSSW_12_4_25/lib/el8_amd64_gcc10"
+    ],
+    "PATH:ROOT_INCLUDE_PATH": [
+      "/eos/home-a/asmishra/cms_project/CMSSW_12_4_25/src",
+      "/cvmfs/cms.cern.ch/el8_amd64_gcc10/cms/cmssw/CMSSW_12_4_25/src"
+    ],
+    "PATH:TEST_SRTOPT_PATH": [
+      "/eos/home-a/asmishra/cms_project/CMSSW_12_4_25/test/el8_amd64_gcc10",
+      "/cvmfs/cms.cern.ch/el8_amd64_gcc10/cms/cmssw/CMSSW_12_4_25/test/el8_amd64_gcc10"
+    ]
+  },
+  "TOOLNAME": "self",
+  "TOOLVERSION": "SELF",
+  "VARIABLES": [
+    "LIBDIR",
+    "INCLUDE"
+  ]
+}

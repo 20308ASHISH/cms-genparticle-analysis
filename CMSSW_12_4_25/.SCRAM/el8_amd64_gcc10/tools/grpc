@@ -1,0 +1,31 @@
+{
+  "FLAGS": {
+    "SYSTEM_INCLUDE": [
+      "1"
+    ]
+  },
+  "GRPC_BASE": "/cvmfs/cms.cern.ch/el8_amd64_gcc10/external/grpc/1.35.0-1bd69a243ff070cfbfbff0f7e608eafc",
+  "INCLUDE": [
+    "/cvmfs/cms.cern.ch/el8_amd64_gcc10/external/grpc/1.35.0-1bd69a243ff070cfbfbff0f7e608eafc/include"
+  ],
+  "LIB": [
+    "grpc",
+    "grpc++",
+    "grpc++_reflection"
+  ],
+  "LIBDIR": [
+    "/cvmfs/cms.cern.ch/el8_amd64_gcc10/external/grpc/1.35.0-1bd69a243ff070cfbfbff0f7e608eafc/lib"
+  ],
+  "TOOLNAME": "grpc",
+  "TOOLVERSION": "1.35.0-1bd69a243ff070cfbfbff0f7e608eafc",
+  "USE": [
+    "protobuf",
+    "openssl",
+    "pcre"
+  ],
+  "VARIABLES": [
+    "GRPC_BASE",
+    "INCLUDE",
+    "LIBDIR"
+  ]
+}

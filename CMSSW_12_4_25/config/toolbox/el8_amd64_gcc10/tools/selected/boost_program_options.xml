@@ -1,0 +1,5 @@
+<tool name="boost_program_options" version="1.78.0-0eee560924071238500da28588b8fccc">
+  <info url="http://www.boost.org"/>
+  <lib name="boost_program_options"/>
+  <use name="boost"/>
+</tool>

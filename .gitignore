@@ -1,0 +1,7 @@
+CMSSW_*
+*.root
+tmp/
+cache/
+lib/
+biglib/
+bin/

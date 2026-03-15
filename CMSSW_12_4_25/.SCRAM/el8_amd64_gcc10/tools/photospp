@@ -1,0 +1,24 @@
+{
+  "INCLUDE": [
+    "/cvmfs/cms.cern.ch/el8_amd64_gcc10/external/photospp/3.64-03e7dc9d794b8f29300196fc5227aa57/include"
+  ],
+  "LIB": [
+    "Photospp",
+    "PhotosppHepMC",
+    "PhotosppHEPEVT"
+  ],
+  "LIBDIR": [
+    "/cvmfs/cms.cern.ch/el8_amd64_gcc10/external/photospp/3.64-03e7dc9d794b8f29300196fc5227aa57/lib"
+  ],
+  "PHOTOSPP_BASE": "/cvmfs/cms.cern.ch/el8_amd64_gcc10/external/photospp/3.64-03e7dc9d794b8f29300196fc5227aa57",
+  "TOOLNAME": "photospp",
+  "TOOLVERSION": "3.64-03e7dc9d794b8f29300196fc5227aa57",
+  "USE": [
+    "hepmc"
+  ],
+  "VARIABLES": [
+    "PHOTOSPP_BASE",
+    "LIBDIR",
+    "INCLUDE"
+  ]
+}

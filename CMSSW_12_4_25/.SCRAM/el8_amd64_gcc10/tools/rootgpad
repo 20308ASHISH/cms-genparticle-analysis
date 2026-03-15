@@ -1,0 +1,11 @@
+{
+  "LIB": [
+    "Gpad",
+    "Graf"
+  ],
+  "TOOLNAME": "rootgpad",
+  "TOOLVERSION": "6.24.07-1b30a5c5bd1307e4b99146a1158208b0",
+  "USE": [
+    "roothistmatrix"
+  ]
+}

@@ -1,0 +1,6 @@
+<tool name="py3-pylint" version="2.13.5-38c33531747997dfb0ecb58e74f39a45">
+  <client>
+    <environment name="PY3_PYLINT_BASE" default="/cvmfs/cms.cern.ch/el8_amd64_gcc10/external/py3-pylint/2.13.5-38c33531747997dfb0ecb58e74f39a45"/>
+  </client>
+  <runtime name="PATH" value="$PY3_PYLINT_BASE/bin" type="path"/>
+</tool>

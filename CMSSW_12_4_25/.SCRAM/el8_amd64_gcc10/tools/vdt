@@ -1,0 +1,18 @@
+{
+  "LIB": [
+    "vdt"
+  ],
+  "LIBDIR": [
+    "/cvmfs/cms.cern.ch/el8_amd64_gcc10/cms/vdt/0.4.3-529dffff78ec4a6cdec53443aa409f04/lib"
+  ],
+  "TOOLNAME": "vdt",
+  "TOOLVERSION": "0.4.3-529dffff78ec4a6cdec53443aa409f04",
+  "USE": [
+    "vdt_headers"
+  ],
+  "VARIABLES": [
+    "VDT_BASE",
+    "LIBDIR"
+  ],
+  "VDT_BASE": "/cvmfs/cms.cern.ch/el8_amd64_gcc10/cms/vdt/0.4.3-529dffff78ec4a6cdec53443aa409f04"
+}

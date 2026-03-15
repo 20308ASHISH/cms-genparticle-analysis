@@ -1,0 +1,19 @@
+{
+  "INCLUDE": [
+    "/cvmfs/cms.cern.ch/el8_amd64_gcc10/external/log4cplus/2.0.7-ce0cc603783d2c2c5a7d7a18f01543bd/include"
+  ],
+  "LIB": [
+    "log4cplusS"
+  ],
+  "LIBDIR": [
+    "/cvmfs/cms.cern.ch/el8_amd64_gcc10/external/log4cplus/2.0.7-ce0cc603783d2c2c5a7d7a18f01543bd/lib64"
+  ],
+  "LOG4CPLUS_BASE": "/cvmfs/cms.cern.ch/el8_amd64_gcc10/external/log4cplus/2.0.7-ce0cc603783d2c2c5a7d7a18f01543bd",
+  "TOOLNAME": "log4cplus",
+  "TOOLVERSION": "2.0.7-ce0cc603783d2c2c5a7d7a18f01543bd",
+  "VARIABLES": [
+    "LOG4CPLUS_BASE",
+    "INCLUDE",
+    "LIBDIR"
+  ]
+}

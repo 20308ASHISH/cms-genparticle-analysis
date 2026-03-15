@@ -1,0 +1,18 @@
+{
+  "LIB": [
+    "vecgeom"
+  ],
+  "LIBDIR": [
+    "/cvmfs/cms.cern.ch/el8_amd64_gcc10/external/vecgeom/v1.1.17-2810e01294bc5adeae4eed4c4178e316/lib"
+  ],
+  "TOOLNAME": "vecgeom",
+  "TOOLVERSION": "v1.1.17-2810e01294bc5adeae4eed4c4178e316",
+  "USE": [
+    "vecgeom_interface"
+  ],
+  "VARIABLES": [
+    "VECGEOM_BASE",
+    "LIBDIR"
+  ],
+  "VECGEOM_BASE": "/cvmfs/cms.cern.ch/el8_amd64_gcc10/external/vecgeom/v1.1.17-2810e01294bc5adeae4eed4c4178e316"
+}
