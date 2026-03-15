@@ -1,0 +1,7 @@
+<tool name="gosam" version="2.1.0-6d50d9d52ef7d449e279f0aac2fc2587">
+  <client>
+    <environment name="GOSAM_BASE" default="/cvmfs/cms.cern.ch/el8_amd64_gcc12/external/gosam/2.1.0-6d50d9d52ef7d449e279f0aac2fc2587"/>
+    <environment name="BINDIR" default="$GOSAM_BASE/bin"/>
+  </client>
+  <runtime name="PATH" default="$BINDIR" type="path"/>
+</tool>

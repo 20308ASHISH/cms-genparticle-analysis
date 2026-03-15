@@ -1,0 +1,18 @@
+{
+  "MILLEPEDE_BASE": "/cvmfs/cms.cern.ch/el8_amd64_gcc12/external/millepede/V04-11-01-af017398d7929008089f6ecfdda16775",
+  "RUNTIME": {
+    "PATH:PATH": [
+      "/cvmfs/cms.cern.ch/el8_amd64_gcc12/external/millepede/V04-11-01-af017398d7929008089f6ecfdda16775/bin"
+    ]
+  },
+  "TOOLNAME": "millepede",
+  "TOOLVERSION": "V04-11-01-af017398d7929008089f6ecfdda16775",
+  "USE": [
+    "sockets",
+    "pcre",
+    "zlib"
+  ],
+  "VARIABLES": [
+    "MILLEPEDE_BASE"
+  ]
+}

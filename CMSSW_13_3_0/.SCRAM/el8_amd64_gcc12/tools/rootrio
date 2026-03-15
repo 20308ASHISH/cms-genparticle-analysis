@@ -1,0 +1,10 @@
+{
+  "LIB": [
+    "RIO"
+  ],
+  "TOOLNAME": "rootrio",
+  "TOOLVERSION": "6.26.11-c05101b2284100127f71c8d1f927ca38",
+  "USE": [
+    "rootcling"
+  ]
+}

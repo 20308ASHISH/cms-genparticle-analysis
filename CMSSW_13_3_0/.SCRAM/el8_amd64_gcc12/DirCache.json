@@ -1,0 +1,275 @@
+{
+  "ADDEDBF": {},
+  "ADDEDDIR": {},
+  "BFCACHE": {
+    "config/BuildFile.xml": 1700487934.0,
+    "src/CMSSW_13_3_0/config/BuildFile.xml": 1700487934.0,
+    "src/PhysicsAnalysis/GenParticleAnalyzer/plugins/BuildFile.xml": 1773391901.3183424,
+    "src/PhysicsAnalysis/GenParticleAnalyzer/test/BuildFile.xml": 1773388483.0689752
+  },
+  "CLASSDATA": [
+    [
+      [
+        "",
+        "Project"
+      ],
+      [
+        "BigProducts",
+        "SubSystem"
+      ],
+      [
+        "",
+        "BigProduct"
+      ],
+      [
+        "",
+        "donothing"
+      ]
+    ],
+    [
+      [
+        "",
+        "Project"
+      ],
+      [
+        "",
+        "SubSystem"
+      ],
+      [
+        "",
+        "Package"
+      ],
+      [
+        "scripts",
+        "scripts"
+      ]
+    ],
+    [
+      [
+        "",
+        "Project"
+      ],
+      [
+        "Documentation",
+        "Documentation"
+      ],
+      [
+        "",
+        "doc"
+      ]
+    ],
+    [
+      [
+        "",
+        "Project"
+      ],
+      [
+        "",
+        "SubSystem"
+      ],
+      [
+        "",
+        "Package"
+      ],
+      [
+        "src",
+        "library"
+      ]
+    ],
+    [
+      [
+        "",
+        "Project"
+      ],
+      [
+        "",
+        "SubSystem"
+      ],
+      [
+        "",
+        "Package"
+      ],
+      [
+        "bin",
+        "binary"
+      ]
+    ],
+    [
+      [
+        "",
+        "Project"
+      ],
+      [
+        "",
+        "SubSystem"
+      ],
+      [
+        "",
+        "Package"
+      ],
+      [
+        "test",
+        "test"
+      ]
+    ],
+    [
+      [
+        "",
+        "Project"
+      ],
+      [
+        "",
+        "SubSystem"
+      ],
+      [
+        "",
+        "Package"
+      ],
+      [
+        "plugins",
+        "plugins"
+      ]
+    ],
+    [
+      [
+        "",
+        "Project"
+      ],
+      [
+        "",
+        "SubSystem"
+      ],
+      [
+        "",
+        "Package"
+      ],
+      [
+        "python",
+        "python"
+      ]
+    ],
+    [
+      [
+        "",
+        "Project"
+      ],
+      [
+        "LCG",
+        "SubSystem"
+      ],
+      [
+        "",
+        "Package"
+      ],
+      [
+        "tests",
+        "binary"
+      ]
+    ]
+  ],
+  "CLASSMAP": {
+    "config": [
+      "Project",
+      "config",
+      ""
+    ],
+    "src": [
+      "Project",
+      "src",
+      ""
+    ],
+    "src/CMSSW_13_3_0": [
+      "SubSystem",
+      "src/CMSSW_13_3_0",
+      ""
+    ],
+    "src/CMSSW_13_3_0/config": [
+      "Package",
+      "src/CMSSW_13_3_0/config",
+      ""
+    ],
+    "src/CMSSW_13_3_0/config/SCRAM": [
+      "Package",
+      "src/CMSSW_13_3_0/config",
+      "SCRAM"
+    ],
+    "src/CMSSW_13_3_0/config/toolbox": [
+      "Package",
+      "src/CMSSW_13_3_0/config",
+      "toolbox"
+    ],
+    "src/CMSSW_13_3_0/src": [
+      "Package",
+      "src/CMSSW_13_3_0/src",
+      ""
+    ],
+    "src/PhysicsAnalysis": [
+      "SubSystem",
+      "src/PhysicsAnalysis",
+      ""
+    ],
+    "src/PhysicsAnalysis/GenParticleAnalyzer": [
+      "Package",
+      "src/PhysicsAnalysis/GenParticleAnalyzer",
+      ""
+    ],
+    "src/PhysicsAnalysis/GenParticleAnalyzer/plugins": [
+      "plugins",
+      "src/PhysicsAnalysis/GenParticleAnalyzer/plugins",
+      ""
+    ],
+    "src/PhysicsAnalysis/GenParticleAnalyzer/python": [
+      "python",
+      "src/PhysicsAnalysis/GenParticleAnalyzer/python",
+      ""
+    ],
+    "src/PhysicsAnalysis/GenParticleAnalyzer/test": [
+      "test",
+      "src/PhysicsAnalysis/GenParticleAnalyzer/test",
+      ""
+    ]
+  },
+  "DIRCACHE": {
+    "config": [
+      1773317266.429727
+    ],
+    "src": [
+      1773400881.4291105,
+      "src/CMSSW_13_3_0",
+      "src/PhysicsAnalysis"
+    ],
+    "src/CMSSW_13_3_0": [
+      1773387507.5439758,
+      "src/CMSSW_13_3_0/config",
+      "src/CMSSW_13_3_0/src"
+    ],
+    "src/CMSSW_13_3_0/config": [
+      1773387508.6434562
+    ],
+    "src/CMSSW_13_3_0/src": [
+      1773387507.5439758
+    ],
+    "src/PhysicsAnalysis": [
+      1773388482.7320318,
+      "src/PhysicsAnalysis/GenParticleAnalyzer"
+    ],
+    "src/PhysicsAnalysis/GenParticleAnalyzer": [
+      1773388482.9101498,
+      "src/PhysicsAnalysis/GenParticleAnalyzer/plugins",
+      "src/PhysicsAnalysis/GenParticleAnalyzer/python",
+      "src/PhysicsAnalysis/GenParticleAnalyzer/test"
+    ],
+    "src/PhysicsAnalysis/GenParticleAnalyzer/plugins": [
+      1773404619.2857513
+    ],
+    "src/PhysicsAnalysis/GenParticleAnalyzer/python": [
+      1773388482.9063194
+    ],
+    "src/PhysicsAnalysis/GenParticleAnalyzer/test": [
+      1773400965.5759778
+    ]
+  },
+  "PACKMAP": {},
+  "REMOVEDBF": {},
+  "REMOVEDDIR": {}
+}

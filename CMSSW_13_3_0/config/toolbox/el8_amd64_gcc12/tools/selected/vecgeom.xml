@@ -1,0 +1,9 @@
+<tool name="vecgeom" version="v1.2.1-35adfe5c99700701c19371de9114c36a">
+  <info url="https://gitlab.cern.ch/VecGeom/VecGeom"/>
+  <lib name="vecgeom"/>
+  <client>
+    <environment name="VECGEOM_BASE" default="/cvmfs/cms.cern.ch/el8_amd64_gcc12/external/vecgeom/v1.2.1-35adfe5c99700701c19371de9114c36a"/>
+    <environment name="LIBDIR" default="$VECGEOM_BASE/lib64"/>
+  </client>
+  <use name="vecgeom_interface"/>
+</tool>

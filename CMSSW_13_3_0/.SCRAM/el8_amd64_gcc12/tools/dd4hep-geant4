@@ -1,0 +1,11 @@
+{
+  "LIB": [
+    "DDG4-static"
+  ],
+  "TOOLNAME": "dd4hep-geant4",
+  "TOOLVERSION": "v01-25x-728f9b0ce0c41b370f58ddd17d2fa95e",
+  "USE": [
+    "geant4core",
+    "dd4hep-core"
+  ]
+}

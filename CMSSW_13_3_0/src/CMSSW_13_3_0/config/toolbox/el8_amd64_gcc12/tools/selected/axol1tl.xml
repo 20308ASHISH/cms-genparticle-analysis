@@ -1,0 +1,6 @@
+<tool name="axol1tl" version="1.0.0-4a6fa6cbe17e03372570ed2bb0a48039">
+  <client>
+    <environment name="AXOL1TL_BASE" default="/cvmfs/cms.cern.ch/el8_amd64_gcc12/external/AXOL1TL/1.0.0-4a6fa6cbe17e03372570ed2bb0a48039"/>
+    <environment name="LIBDIR"       default="$AXOL1TL_BASE/lib64"/>
+  </client>
+</tool>

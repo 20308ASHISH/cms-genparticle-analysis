@@ -1,0 +1,13 @@
+{
+  "PY3_NBCLASSIC_BASE": "/cvmfs/cms.cern.ch/el8_amd64_gcc12/external/py3-nbclassic/0.5.5-8ccf62dc93c396061d923a4d716f5968",
+  "RUNTIME": {
+    "PATH:PATH": [
+      "/cvmfs/cms.cern.ch/el8_amd64_gcc12/external/py3-nbclassic/0.5.5-8ccf62dc93c396061d923a4d716f5968/bin"
+    ]
+  },
+  "TOOLNAME": "py3-nbclassic",
+  "TOOLVERSION": "0.5.5-8ccf62dc93c396061d923a4d716f5968",
+  "VARIABLES": [
+    "PY3_NBCLASSIC_BASE"
+  ]
+}
